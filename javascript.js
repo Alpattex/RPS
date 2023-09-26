@@ -8,6 +8,10 @@ function game() {
 
     console.log("Round " + round + ":");
     console.log("Player chose: " + playerSelection);
-    console.log(Computer Chose: " + computerSelection");
+    console.log(Computer chose: " + computerSelection");
+
+    const result = playRound(playerSelection, computerSelection);
+    console.log(result);
+
     }
 }
