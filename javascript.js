@@ -19,3 +19,7 @@ function game() {
         computerScore++;
     }
 }
+
+console.log("Game Over!");
+console.log("Player Score: " + playerScore);
+console.log("Computer Score: " + computerScore);
