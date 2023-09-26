@@ -13,5 +13,9 @@ function game() {
     const result = playRound(playerSelection, computerSelection);
     console.log(result);
 
+    if (result.includes("Win")) {
+        playerScpre++;
+    } else if (result.includes("Lose")) {
+        computerScore++;
     }
 }
